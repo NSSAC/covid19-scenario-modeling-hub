@@ -26,7 +26,7 @@ modeling_NPI: "Stay-at-home orders and
 compliance_NPI: Not applicable
 contact_tracing: Not applicable
 testing: Not applicable
-vaccine_efficacy_transmission: 0.05
+vaccine_efficacy_transmission:  Vaccine efficacy is assumed to be against infection, not specifically transmission. Vaccine efficacy estimates are assumed based on the scenarios.
 vaccine_efficacy_delay: Immunity is assumed to develop exactly 14 days after vaccination.
 vaccine_hesitancy: Hesitancy is not assume other than specifically indicated by the scenarios.
 vaccine_immunity_duration: Not applicable
