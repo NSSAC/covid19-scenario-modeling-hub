@@ -41,7 +41,6 @@ calibration: We use an  MCMC-like inference procedure that calibrates model outp
   \ inference of the baseline reproductive number and the case  confirmation to infection ratio, \
   \ hierarchical grouping terms enable sharing  of strength among counties in the same state.
 spatial_structure: state-level metapopulation accounting for spatial mobility using community data between states.
-confidence_interval_method: We compute confidence intervals as quantiles across 300 simulations.
 calibration: We use an  MCMC-like inference procedure that calibrates model outputs to weekly \       
   \ aggregations of incident confirmed cases and deaths as reported by USA Facts. For the \
   \ inference of the baseline reproductive number and the case  confirmation to infection ratio, \
