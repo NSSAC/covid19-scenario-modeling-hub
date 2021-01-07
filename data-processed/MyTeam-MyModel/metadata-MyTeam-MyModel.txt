@@ -32,7 +32,7 @@ vaccine_hesitancy: Hesitancy is not assume other than specifically indicated by 
 vaccine_immunity_duration: Not applicable
 natural_immunity_duration: Not applicable
 case_fatality_rate: Not applicable
-infection_fatality_rate: 0.05
+infection_fatality_rate: "0.05"
 asymptomatics: Not applicable
 age_groups: Not applicable
 confidence_interval_method: We compute confidence intervals as quantiles across 300 simulations.
