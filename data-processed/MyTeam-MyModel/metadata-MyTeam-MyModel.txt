@@ -35,6 +35,18 @@ case_fatality_rate: Not applicable
 infection_fatality_rate: Age-adjusted based on population age distribution. US national CFR set at 5%.
 asymptomatics: Not applicable
 age_groups: Not applicable
+confidence_interval_method: We compute confidence intervals as quantiles across 300 simulations.
+calibration: We use an  MCMC-like inference procedure that calibrates model outputs to weekly \       
+  \ aggregations of incident confirmed cases and deaths as reported by USA Facts. For the \
+  \ inference of the baseline reproductive number and the case  confirmation to infection ratio, \
+  \ hierarchical grouping terms enable sharing  of strength among counties in the same state.
+spatial_structure: state-level metapopulation accounting for spatial mobility using community data between states.
+confidence_interval_method: We compute confidence intervals as quantiles across 300 simulations.
+calibration: We use an  MCMC-like inference procedure that calibrates model outputs to weekly \       
+  \ aggregations of incident confirmed cases and deaths as reported by USA Facts. For the \
+  \ inference of the baseline reproductive number and the case  confirmation to infection ratio, \
+  \ hierarchical grouping terms enable sharing  of strength among counties in the same state.
+spatial_structure: state-level metapopulation accounting for spatial mobility using community data between states.
 importations: We assumed 10 importations per day per state seeded randomly.
 citation: "Smith J, Smith S, Smith C. MyModel is the best model. Nature. 2020 Aug;584(7920):251-261. doi: 10.1038/s41586-020-3502-7."
 methods_long: "State level - A basic AR-type time series model fit using lagged values of case 
