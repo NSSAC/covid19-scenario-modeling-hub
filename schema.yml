@@ -54,7 +54,7 @@ mapping:
     'vaccine_immunity_duration':
         required: True
         type: str
-    'nature_immunity_duration':
+    'natural_immunity_duration':
         required: True
         type: str
     'case_fatality_rate':
